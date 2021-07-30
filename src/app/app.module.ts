@@ -2,15 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ServerComponent } from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
+import { SecretWordComponent } from './secret-word/secret-word.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [ // All components to include
     AppComponent,
-    ServerComponent,
-    ServersComponent
+    SecretWordComponent
   ],
   imports: [
     BrowserModule,
